@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;600&display=swap');
+
+html {
+  font-family: 'Cabin', sans-serif;
+}
+
+.gradient-salla {
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(159,233,226,1) 10%, rgba(159,233,226,1) 50%, rgba(159,233,226,1) 90%, rgba(255,255,255,1) 100%);
+}
+
+.spacer {
+  height: 1px;
+  background-color: #FACAAE;
+}

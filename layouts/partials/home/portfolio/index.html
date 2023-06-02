@@ -1,0 +1,19 @@
+<article class="px-15 max-w-7xl">
+  <header class="flex flex-col h-screen justify-center">
+    <h1 class="text-5xl font-extrabold mb-10 leading-normal">
+      {{ .Title }}
+      <br />
+      {{ .Description }}
+    </h1>
+    <div class="mt-1 text-2xl">
+      {{ partialCached "author-links.html" . }}
+    </div>
+
+    <div class="text-1xl w-3/5">
+      {{ .Params.heroDescription }}
+    </div>
+  </header>
+</article>
+
+{{ partial "home/portfolio/demo1.html" . }}
+{{ partial "home/portfolio/demo2.html" . }}
