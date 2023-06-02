@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://amohey.com/sitemap.xml
