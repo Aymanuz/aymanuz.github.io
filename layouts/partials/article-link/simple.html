@@ -18,7 +18,7 @@
 
 {{ $articleInnerClasses := "" }}
 {{ if .Site.Params.list.showCards }}
-{{ $articleInnerClasses = delimit (slice $articleInnerClasses "px-10 flex flex-col") " " }}
+{{ $articleInnerClasses = delimit (slice $articleInnerClasses "md:px-10 md:py-0 py-10 flex flex-col") " " }}
 {{ else }}
 {{ $articleInnerClasses = delimit (slice $articleInnerClasses "mt-3 md:mt-0") " " }}
 {{ end }}
