@@ -1,0 +1,59 @@
+<footer id="site-footer" class="py-20 print:hidden">
+  <div class="flex flex-col items-center w-full">
+    {{ if .Site.Params.Logo }}
+    {{ $logo := resources.Get .Site.Params.logo_dim }}
+    {{ if $logo }}
+    <div>
+        <a href="{{ "" | relLangURL }}" class="flex">
+            <img src="{{ $logo.RelPermalink }}" width="{{ div $logo.Width 2 }}" height="{{ div $logo.Height 2 }}"
+                class="logo max-h-[5rem] max-w-[10rem] object-scale-down object-left nozoom" alt="{{ .Site.Title }}" />
+        </a>
+    </div>
+    {{ end }}
+    {{- end }}
+
+    <div class="my-10 text-2xl">
+        {{ with .Site.Author.links }}
+        <div class="flex flex-wrap">
+            {{ range $links := . }}
+            {{ range $name, $url := $links }}
+            <a class="px-5 hover:text-primary-400 bg-color-dim2" href="{{ $url }}" target="_blank"
+                aria-label="{{ $name | title }}" rel="me noopener noreferrer">{{ partial
+                "icon.html" $name }}</a>
+            {{ end }}
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
+
+    {{ if .Site.Params.footer.showCopyright | default true }}
+    <p class="text-sm bg-color-dim2">
+      {{- with replace .Site.Params.copyright "{ year }" now.Year  }}
+      {{ . | emojify | markdownify }}
+      {{- else }}
+      &copy;
+      {{ now.Format "2006" }}
+      {{ .Site.Author.name | markdownify | emojify }}
+      {{- end }}
+    </p>
+    {{ end }}
+
+  </div>
+
+  <script>
+    {{ if not .Site.Params.disableImageZoom | default true }}
+    mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
+      margin: 24,
+      background: 'rgba(0,0,0,0.5)',
+      scrollOffset: 0,
+    })
+    {{ end }}
+  </script>
+  {{ $jsProcess := resources.Get "js/process.js" }}
+  {{ $jsProcess = $jsProcess | resources.Minify | resources.Fingerprint "sha512" }}
+  <script type="text/javascript" src="{{ $jsProcess.RelPermalink }}" integrity="{{ $jsProcess.Data.Integrity }}"></script>
+  {{/* Extend footer - eg. for extra scripts, etc. */}}
+  {{ if templates.Exists "partials/extend-footer.html" }}
+  {{ partialCached "extend-footer.html" . }}
+  {{ end }}
+</footer>

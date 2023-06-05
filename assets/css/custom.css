@@ -1,14 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+:root {
+  --color-neutral-800: 0, 16, 29;
+  --color-neutral: 242, 242, 242;
+}
 
 html {
-  font-family: 'Cabin', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
-.gradient-salla {
-  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(159,233,226,1) 10%, rgba(159,233,226,1) 50%, rgba(159,233,226,1) 90%, rgba(255,255,255,1) 100%);
+.bg-color-main {
+  background-color: #00101D;
 }
 
-.spacer {
-  height: 1px;
-  background-color: #FACAAE;
+.bg-color-accent {
+  background-color: rgba(255, 255, 255, 0.02);
+}
+
+.bg-color-dim {
+  color: #BDBDBD;
+}
+
+.bg-color-dim2 {
+  color: #F2F2F299;
 }
