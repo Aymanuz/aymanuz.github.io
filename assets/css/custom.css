@@ -24,3 +24,11 @@ html {
 .bg-color-dim2 {
   color: #F2F2F299;
 }
+
+.bg-line-y {
+  background: linear-gradient(180deg, rgba(255,255,255,.1) 60%, rgba(255,255,255,0) 100%);
+}
+
+.bg-line-x {
+  background: rgba(255,255,255,.1);
+}

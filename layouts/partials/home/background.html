@@ -2,13 +2,13 @@
   <div class="relative">
     <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100"></div>
     <div class="mx-auto max-w-7xl p-0">
-      <section class="relative sm:overflow-hidden flex">
+      <section class="relative flex">
         <div class="fixed inset-x-0 top-0" style="z-index:-10">
           {{ $homepageImage := "" }}
           {{ with .Site.Params.defaultBackgroundImage }}{{ $homepageImage = resources.Get . }}{{ end }}
           {{ with .Site.Params.homepage.homepageImage }}{{ $homepageImage = resources.Get . }}{{ end }}
           {{ if not (eq $homepageImage "") }}
-          <img class="w-full h-[1000px] object-cover m-0 nozoom" src="{{ $homepageImage.RelPermalink }}"
+          <img class="w-full h-[1000px] object-fill m-0 nozoom" src="{{ $homepageImage.RelPermalink }}"
             role="presentation">
           <div
             class="">
@@ -25,15 +25,15 @@
     </div>
   </div>
 </article>
-<section>
+<section class="px-6 md:px-10">
   {{ partial "recent-articles/main.html" . }}
 </section>
 {{ if .Site.Params.homepage.layoutBackgroundBlur | default false }}
 <div id="background-blur"
   class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom bg-color-main"></div>
 <script>
-  window.addEventListener('scroll', function (e) {
-    var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+  document.body.addEventListener('scroll', function (e) {
+    var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || document.getElementById('scroller').scrollTop || 0;
     var background_blur = document.getElementById('background-blur');
     background_blur.style.opacity = (scroll / 300)
   });
