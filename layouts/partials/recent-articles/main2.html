@@ -1,12 +1,9 @@
-
 {{ if gt .Pages 0 }}
-  {{ partial "article/list.html" . }}
+{{ partial "article/list.html" . }}
 {{ else }}
-  <section class="mt-10 prose dark:prose-invert">
-    <p class="py-8 border-t">
-      <em>{{ i18n "list.no_articles" | emojify }}</em>
-    </p>
-  </section>
-
+<section class="max-w-full mt-10 prose dark:prose-invert lg:flex-row">
+  <div class="min-w-0 min-h-0">
+    {{ .Content | emojify }}
+  </div>
+</section>
 {{ end }}
-

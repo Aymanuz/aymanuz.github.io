@@ -1792,6 +1792,11 @@ select {
   width: min-content;
 }
 
+.w-max {
+  width: -moz-max-content;
+  width: max-content;
+}
+
 .min-w-0 {
   min-width: 0px;
 }
@@ -4933,6 +4938,10 @@ body:has(#menu-controller:checked) {
     flex-direction: row;
   }
 
+  .sm\:flex-col {
+    flex-direction: column;
+  }
+
   .sm\:overflow-hidden {
     overflow: hidden;
   }
@@ -5021,6 +5030,14 @@ body:has(#menu-controller:checked) {
 
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:flex-col {
+    flex-direction: column;
   }
 
   .md\:justify-start {
