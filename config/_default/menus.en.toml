@@ -11,15 +11,24 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Docs"
-  pageRef = "docs"
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[main]]
+  name = "Thoughts"
+  pageRef = "thoughts"
   weight = 10
 
+[[main]]
+ name = "Work"
+ pageRef = "work"
+ weight = 100
 
-#[[main]]
-#  name = "Merch"
-#  url = "http://tee.pub/lic/qwSlWVBL5zc"
-#  weight = 100
+[[main]]
+ name = "About"
+ pageRef = "about"
+ weight = 1000
 
 #[[main]]
 #  name = "Test"

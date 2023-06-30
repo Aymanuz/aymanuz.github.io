@@ -42,15 +42,16 @@
                 {{ partial "icon.html" "bars" }}
             </div>
             <div id="menu-wrapper"
-                class="fixed flex flex-col md:px-20 py-6 px-10 inset-0 z-30 invisible w-screen h-screen m-auto overflow-auto transition-opacity opacity-0 cursor-default bg-neutral-100/50 backdrop-blur-sm dark:bg-neutral-900/50">
+                class="fixed flex flex-col md:px-20 py-6 px-10 inset-0 z-30 invisible w-screen h-screen m-auto overflow-auto transition-opacity opacity-0 cursor-default bg-neutral-100/50 backdrop-blur-md dark:bg-neutral-900/50">
 
               <div class="self-end">
                   <span
-                      class="cursor-pointer inline-block align-text-bottom hover:text-primary-600 dark:hover:text-primary-400">{{
+                      class="cursor-pointer inline-block align-text-bottom hover:text-primary-600 dark:hover:text-primary-400 md:px-10 py-6 pt-20 px-6">{{
                       partial
                       "icon.html"
                       "xmark" }}</span>
               </div>
+
                 <ul
                     class="flex justify-center items-center h-full space-y-2 mt-3 flex-col items-end w-full px-6 py-6 mx-auto overflow-visible list-none ltr:text-right rtl:text-left max-w-7xl">
 
@@ -121,7 +122,7 @@
         var $mainmenu = $('.main-menu');
         var path = window.location.pathname;
         $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
-            $(e).children('p').addClass('active');
+            $(e).children('p').addClass('bg-[rgba(255,255,255,.08)]');
         });
     })();
 </script>

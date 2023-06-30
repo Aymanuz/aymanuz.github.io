@@ -1,4 +1,4 @@
-<li class="mt-1 p2">
+<li class="mt-5">
     <a href="{{ .URL }}" {{ if or (strings.HasPrefix .URL "http:" ) (strings.HasPrefix .URL "https:"
         ) }} target="_blank" {{ end }} class="flex items-center">
         {{ if .Pre }}
@@ -6,7 +6,7 @@
             {{ partial "icon.html" .Pre }}
         </div>
         {{ end }}
-        <p class="text-bg font-bg text-gray-500 hover:text-gray-900" title="{{ .Title }}">
+        <p class="text-bg py-2 px-5 text-base w-min rounded-[27px] font-bg hover:text-gray-900" title="{{ .Title }}">
             {{ .Name | markdownify | emojify }}
         </p>
     </a>
