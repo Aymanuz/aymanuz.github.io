@@ -41,18 +41,19 @@
             <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
                 {{ partial "icon.html" "bars" }}
             </div>
-            <div id="menu-wrapper" style="padding-top:5px;"
-                class="fixed inset-0 z-30 invisible w-screen h-screen m-auto overflow-auto transition-opacity opacity-0 cursor-default bg-neutral-100/50 backdrop-blur-sm dark:bg-neutral-900/50">
-                <ul
-                    class="flex space-y-2 mt-3 flex-col items-end w-full px-6 py-6 mx-auto overflow-visible list-none ltr:text-right rtl:text-left max-w-7xl">
+            <div id="menu-wrapper"
+                class="fixed flex flex-col md:px-20 py-6 px-10 inset-0 z-30 invisible w-screen h-screen m-auto overflow-auto transition-opacity opacity-0 cursor-default bg-neutral-100/50 backdrop-blur-sm dark:bg-neutral-900/50">
 
-                    <li>
-                        <span
-                            class="cursor-pointer inline-block align-text-bottom hover:text-primary-600 dark:hover:text-primary-400">{{
-                            partial
-                            "icon.html"
-                            "xmark" }}</span>
-                    </li>
+              <div class="self-end">
+                  <span
+                      class="cursor-pointer inline-block align-text-bottom hover:text-primary-600 dark:hover:text-primary-400">{{
+                      partial
+                      "icon.html"
+                      "xmark" }}</span>
+              </div>
+                <ul
+                    class="flex justify-center items-center h-full space-y-2 mt-3 flex-col items-end w-full px-6 py-6 mx-auto overflow-visible list-none ltr:text-right rtl:text-left max-w-7xl">
+
 
                     {{ if .Site.Menus.main }}
                     {{ range .Site.Menus.main }}
