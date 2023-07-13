@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 :root {
   --color-neutral-800: 0, 16, 29;
@@ -6,11 +6,11 @@
 }
 
 html {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .bg-color-main {
-  background-color: #00101D;
+  background-color: #00101d;
 }
 
 .bg-color-accent {
@@ -18,17 +18,29 @@ html {
 }
 
 .bg-color-dim {
-  color: #BDBDBD;
+  color: #bdbdbd;
+}
+
+.bg-color-dim1 {
+  color: #f2f2f2;
 }
 
 .bg-color-dim2 {
-  color: #F2F2F299;
+  color: #f2f2f299;
 }
 
 .bg-line-y {
-  background: linear-gradient(180deg, rgba(255,255,255,.1) 60%, rgba(255,255,255,0) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.1) 60%,
+    rgba(255, 255, 255, 0) 100%
+  );
 }
 
 .bg-line-x {
-  background: rgba(255,255,255,.1);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.w-\[1000\%\] {
+  width: 1000%;
 }
