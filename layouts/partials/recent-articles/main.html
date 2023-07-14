@@ -18,10 +18,10 @@
 {{ if index .Site.Params.homepage "showRecentItems" }}
 {{ $showMoreLinkDest = .Site.Params.homepage.showMoreLinkDest }}
 {{ end }}
-<div class="mt-10 flex justify-center">
+<div class="mt-14 flex justify-center">
   <a href="{{ $showMoreLinkDest }}">
     <button
-      class="rounded-md py-2 px-5 text-base bg-[#ffffff05]">
+      class="rounded-md py-2 px-5 text-base bg-[#ffffff05] bg-color-dim">
       {{ i18n "recent.show_more" | markdownify | emojify }}
     </button>
   </a>
