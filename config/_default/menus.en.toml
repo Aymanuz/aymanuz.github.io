@@ -15,10 +15,10 @@
   url = "/"
   weight = 1
 
-[[main]]
-  name = "Thoughts"
-  pageRef = "thoughts"
-  weight = 10
+#[[main]]
+#  name = "Thoughts"
+#  pageRef = "thoughts"
+#  weight = 10
 
 [[main]]
  name = "Work"

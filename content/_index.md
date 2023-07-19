@@ -1,6 +1,6 @@
 ---
-title: "Welcome to Blowfish! :tada:"
-description: "This is a demo of the Blowfish theme for Hugo."
+title: "Home"
+description: "Home Page"
 ---
 
 <div class="relative flex flex-col p-5 md:p-10 my-20 gap-2 rounded-3xl bg-color-accent font-normal text-neutral-800 dark:text-neutral border border-[rgba(255,255,255,.1)]">

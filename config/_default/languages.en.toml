@@ -20,7 +20,7 @@ dateFormat = "2 Jan 2006"
   headline = "A powerful, lightweight theme for Hugo built with Tailwind CSS."
   bio = "A powerful, lightweight theme for Hugo built with Tailwind CSS."
  links = [
-   { facebook = "https://facebook.com/aymanuz" },
+  
    { instagram = "https://instagram.com/aymanuz" },
    { telegram = "https://t.me/aymanuz" },
    { twitter = "https://twitter.com/aymanuz" },
