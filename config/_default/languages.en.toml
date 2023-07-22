@@ -10,7 +10,7 @@ logo = "img/amohey_logo.png"
 logo_dim = "img/amohey_logo_dim.png"
 #secondaryLogo = "PATH"
 description = "A powerful, lightweight theme for Hugo built with Tailwind CSS."
-copyright = "© 2023"
+copyright = "© 2023 Ayman Mohey1"
 
 dateFormat = "2 Jan 2006"
 

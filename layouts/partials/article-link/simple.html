@@ -1,6 +1,6 @@
 {{ $constrainItemsWidth := .Page.Site.Params.list.constrainItemsWidth | default false }}
 
-{{ $articleClasses := "flex flex-wrap items-center article" }}
+{{ $articleClasses := "flex flex-col-reverse md:flex-row items-center article" }}
 {{ if .Site.Params.list.showCards }}
 {{ $articleClasses = delimit (slice $articleClasses "backdrop-blur") " " }}
 {{ else }}
