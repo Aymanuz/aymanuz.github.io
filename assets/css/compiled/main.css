@@ -2258,6 +2258,48 @@ select {
   background-color: transparent;
 }
 
+.bg-\[\#27272705\] {
+  background-color: #27272705;
+}
+
+.bg-\[\#27272760\] {
+  background-color: #27272760;
+}
+
+.bg-\[\#2727273f\] {
+  background-color: #2727273f;
+}
+
+.bg-\[\#2727275e\] {
+  background-color: #2727275e;
+}
+
+.bg-\[\#2727274a\] {
+  background-color: #2727274a;
+}
+
+.bg-\[\#27272751\] {
+  background-color: #27272751;
+}
+
+.bg-\[\#272727\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(39 39 39 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#00101D\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 16 29 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#00101d6e\] {
+  background-color: #00101d6e;
+}
+
+.bg-\[\#00101d4c\] {
+  background-color: #00101d4c;
+}
+
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
