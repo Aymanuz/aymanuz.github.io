@@ -3,7 +3,7 @@ title: "Home"
 description: "Home Page"
 ---
 
-<div class="relative flex flex-col p-5 md:p-10 my-20 gap-2 rounded-3xl bg-color-accent font-normal text-neutral-800 dark:text-neutral border border-[rgba(255,255,255,.1)]">
+<div class="relative flex flex-col py-10 px-5 md:p-10 my-20 gap-2 rounded-3xl bg-color-accent font-normal text-neutral-800 dark:text-neutral border border-[rgba(255,255,255,.1)]">
   <p class="text-base m-0 bg-color-dim leading-8">Hello</p>
   <p class="text-xl font-normal  m-0 leading-8 bg-color-dim1">I’m Ayman. As a Product Designer for over 5 years, I've designed products that facilitate connections between people. I love to collaborate, use fun UI, and promote inclusivity.</p>
 

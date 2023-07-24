@@ -9,6 +9,10 @@ html {
   font-family: 'Inter', sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600 !important;
+}
+
 .bg-color-main {
   background-color: #00101d;
 }
@@ -45,6 +49,7 @@ html {
   width: 1000%;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 600 !important;
+.thumbnail {
+  aspect-ratio: 475/364;
+  height: auto;
 }
