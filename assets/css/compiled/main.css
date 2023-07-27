@@ -4519,6 +4519,22 @@ body:has(#menu-controller:checked) {
   background-color: rgba(var(--color-primary-600), var(--tw-bg-opacity));
 }
 
+.hover\:bg-\[\#00101d26\]:hover {
+  background-color: #00101d26;
+}
+
+.hover\:bg-\[\#00101d7b\]:hover {
+  background-color: #00101d7b;
+}
+
+.hover\:bg-\[\#00101d00\]:hover {
+  background-color: #00101d00;
+}
+
+.hover\:bg-\[\#3d3d3d7b\]:hover {
+  background-color: #3d3d3d7b;
+}
+
 .hover\:text-neutral:hover {
   --tw-text-opacity: 1;
   color: rgba(var(--color-neutral), var(--tw-text-opacity));
