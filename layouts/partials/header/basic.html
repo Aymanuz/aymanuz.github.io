@@ -46,14 +46,16 @@
             </div>
             
             <div id="menu-wrapper"
-                class="fixed flex flex-col md:px-20 py-6 px-10 inset-0 z-30 invisible w-screen h-screen m-auto overflow-auto transition-opacity opacity-0 cursor-default bg-neutral-100/50 backdrop-blur-md dark:bg-neutral-900/50 transition duration-150 ease-out">
+                class="fixed flex flex-col inset-0 z-30 invisible items-center w-screen h-screen overflow-y-scroll transition-opacity opacity-0 cursor-default bg-neutral-100/50 backdrop-blur-md dark:bg-neutral-900/50 transition duration-150 ease-out">
 
-                <div class="self-end">
-                    <span
-                        class="cursor-pointer inline-block align-text-bottom hover:text-primary-600 dark:hover:text-primary-400 md:px-10 py-6 pt-20 px-6">{{
-                        partial
-                        "icon.html"
-                        "xmark" }}</span>
+                <div class="flex flex-col px-6 max-w-5xl sm:px-14 md:px-20 lg:px-20 xl:px-25 w-full">
+                  <div class="flex items-center md:px-10 py-6 pt-20 px-6 justify-end space-x-3">
+                      <span
+                          class="z-10 top-20 -translate-x-2 cursor-pointer p-3">{{
+                          partial
+                          "icon.html"
+                          "xmark" }}</span>
+                  </div>
                 </div>
                 <ul class="flex justify-center items-center h-full space-y-2 mt-3 flex-col w-28 px-6 py-6 mx-auto overflow-visible list-none ltr:text-right rtl:text-left max-w-7xl">
 
