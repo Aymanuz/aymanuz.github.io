@@ -50,7 +50,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .thumbnail {
-  aspect-ratio: 475/364;
+  aspect-ratio: 4/3;
   width: -webkit-fill-available;
   height: auto;
+}
+
+.single_hero_round {
+  max-height: 100%;
 }
