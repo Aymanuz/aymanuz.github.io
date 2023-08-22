@@ -12,14 +12,21 @@ I collaborated closely with the PMs to create visual designs, user flows, A/B te
 
 ## Design Process
 Product discovery and research were key. At first, I didn’t realise how big the scope of the project was, the methods that cleared that up were product analytics and competitor analysis, and they were the best for continuous product discovery. Tons of features, diagrams and docs had to be written before even considering initial ideation. 
-![sketches](sketches.png)<!-- {"width":654} -->
+
+<div class="relative top-0 left-1/2 -translate-x-1/2 flex items-center justify-center">
+    <img src="sketches.png" alt="sketches" class="max-w-[1300px] w-[90vw]"/>
+</div>
 
 A lot of sketches, wireframes and diagrams were made. Giving the scope of the project, we had many of “oh, ahaaa! And I don’t understand.” moments.
 
 ## Design Tools
 Since I was the only designer at the time, it seemed only logical to adopt a design system instead of building one from scratch at that time - [Orbit Design System by Kiwi](https://www.figma.com/community/file/832549862383280158/%5BOrbit-Design-System%5D-Desktop-Web-Components) was my choice. I was already handed a couple of tasks and main features to do before even considering a culture or guidelines to follow while designing. I knew if I didn’t follow one myself, I would be wasting a lot of time, and things would definitely get messy. 
 
-![a photo of some of Kiwi components](kiwi_design_system.png)
+
+<div class="relative top-0 left-1/2 -translate-x-1/2 flex items-center justify-center">
+    <img src="kiwi_design_system.png" alt="a photo of some of Kiwi components" class="max-w-[1300px] w-[90vw]"/>
+</div>
+
 Some custom components 
 
 
