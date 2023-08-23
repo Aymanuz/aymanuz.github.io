@@ -52,6 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 .thumbnail {
   aspect-ratio: 4/3;
   width: -webkit-fill-available;
+  width: -moz-available;;
   height: auto;
 }
 
@@ -68,4 +69,12 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.img-wrapper * {
+  border-radius: 8px;
+}
+
+.img-wrapper img {
+  border-radius: 8px;
 }

@@ -22,22 +22,19 @@ A lot of sketches, wireframes and diagrams were made. Giving the scope of the pr
 ## Design Tools
 Since I was the only designer at the time, it seemed only logical to adopt a design system instead of building one from scratch at that time - [Orbit Design System by Kiwi](https://www.figma.com/community/file/832549862383280158/%5BOrbit-Design-System%5D-Desktop-Web-Components) was my choice. I was already handed a couple of tasks and main features to do before even considering a culture or guidelines to follow while designing. I knew if I didn’t follow one myself, I would be wasting a lot of time, and things would definitely get messy. 
 
-
 <figure class="img-wrapper">
-    <img src="kiwi_design_system.png" alt="a photo of some of Kiwi components" class="max-w-[1300px] w-[90vw]"/>
+    <img src="kiwi_design_system.png" alt="a photo of some of Kiwi's components" class="max-w-[1300px] w-[90vw]"/>
 </figure>
 
-Some custom components 
+## Bring it all together.
 
+One powerful point the system has is its customization. Each user may get their own unique interface. Each user may have different permissions for what they can do or see in a single screen. That challenge opened up a door for even more research and customized UI. 
 
-
-
-Wasn’t one design for one person.
-The system has more than just one unique user. Each user may have different permissions for what they can do or see in a single screen. That challenge opened up the door for even more research and customised UI. 
-
-
-
-
+<figure class="img-wrapper">
+    <video playsinline="" autobuffer="" autoplay="" muted="" loop="" poster="">
+    <source src="Form_builder.mp4" type="video/mp4">
+    </video>
+</figure>
 
 Building a data-focused ~~dashboard~~, dashboards*
 
