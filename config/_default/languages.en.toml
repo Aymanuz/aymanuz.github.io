@@ -21,7 +21,7 @@ dateFormat = "2 Jan 2006"
   bio = "A powerful, lightweight theme for Hugo built with Tailwind CSS."
  links = [
   
-   { instagram = "https://instagram.com/aymanuz" },
+   { layers = "https://layers.to/aymanuz" },
    { telegram = "https://t.me/aymanuz" },
-   { twitter = "https://twitter.com/aymanuz" },
+   { X = "https://X.com/aymanuz" },
  ]
