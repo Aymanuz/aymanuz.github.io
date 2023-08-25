@@ -35,13 +35,21 @@ One powerful point the system has is its customization. Each user may get their 
     <source src="Form_builder.mp4" type="video/mp4">
     </video>
 </figure>
+Above, the Form Builder was one of the most powerful features I built that unlucked more space for users to making forms in any way they need. It helpled in two key aspects that are:
 
-Building a data-focused ~~dashboard~~, dashboards*
+Efficient Data Collection: Form builders enable organizations to create customized digital forms that can be easily shared with users or customers. This streamlines the process of gathering accurate and structured data, eliminating the need for manual entry and reducing the chances of errors.
+
+Process Automation: This allows for the automation of repetitive tasks and processes triggered by form submissions, reducing manual intervention and improving efficiency.
+
+<figure class="img-wrapper">
+    <img src="Vacation_form.png" alt="Vacation form" class="max-w-[1300px] w-[90vw]"/>
+</figure>
 
 
-Inputs, pop-up
+## Building a data-focused ~~dashboard~~, dashboards*
 
-Complex forms 
+Yaquoti dashboard is a comprehensive and user-friendly that offers a range of solutions aimed at enhancing organizational efficiency and productivity. Through its intuitive interface, the dashboard provides real-time insights and management capabilities across various domains. With features like performance monitoring, requests tracking, Yaquoti empowers businesses to streamline their processes, identify bottlenecks, and proactively address issues. The dashboard's solutions span IT service management, employee management, and more, making it an indispensable tool for businesses seeking to optimize their operations and ensure a seamless and secure digital environment.
 
-
-Website 
+<figure class="img-wrapper">
+    <img src="Dashboard.png" alt="Dashboard components photo" class="max-w-[1300px] w-[90vw]"/>
+</figure>
