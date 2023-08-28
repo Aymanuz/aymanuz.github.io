@@ -1305,10 +1305,6 @@ select {
   top: calc(100vh - 5.5rem);
 }
 
-.left-1\/2 {
-  left: 50%;
-}
-
 .z-10 {
   z-index: 10;
 }
@@ -1597,10 +1593,6 @@ select {
   display: grid;
 }
 
-.contents {
-  display: contents;
-}
-
 .hidden {
   display: none;
 }
@@ -1737,6 +1729,10 @@ select {
   width: 30px;
 }
 
+.w-\[90vw\] {
+  width: 90vw;
+}
+
 .w-full {
   width: 100%;
 }
@@ -1757,10 +1753,6 @@ select {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-\[90vw\] {
-  width: 90vw;
 }
 
 .min-w-0 {
@@ -1799,6 +1791,10 @@ select {
   max-width: 10rem;
 }
 
+.max-w-\[1300px\] {
+  max-width: 1300px;
+}
+
 .max-w-\[1600px\] {
   max-width: 1600px;
 }
@@ -1826,10 +1822,6 @@ select {
 
 .max-w-xl {
   max-width: 36rem;
-}
-
-.max-w-\[1300px\] {
-  max-width: 1300px;
 }
 
 .flex-1 {
@@ -1874,11 +1866,6 @@ select {
 
 .translate-y-\[-50\%\] {
   --tw-translate-y: -50%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.-translate-x-1\/2 {
-  --tw-translate-x: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -2293,6 +2280,10 @@ select {
   padding: 1.5rem;
 }
 
+.p-10 {
+  padding: 2.5rem;
+}
+
 .px-0 {
   padding-left: 0px;
   padding-right: 0px;
@@ -2386,6 +2377,11 @@ select {
 .py-\[1px\] {
   padding-top: 1px;
   padding-bottom: 1px;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .pb-2 {
@@ -4880,9 +4876,23 @@ body:has(#menu-controller:checked) {
     padding-bottom: 6rem;
   }
 
+  .sm\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
   .sm\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .sm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .sm\:leading-8 {
+    line-height: 2rem;
   }
 
   :is([dir="ltr"] .ltr\:sm\:mr-7) {
@@ -4943,22 +4953,6 @@ body:has(#menu-controller:checked) {
     width: auto;
   }
 
-  .md\:max-w-\[320px\] {
-    max-width: 320px;
-  }
-
-  .md\:max-w-\[340px\] {
-    max-width: 340px;
-  }
-
-  .md\:max-w-\[400px\] {
-    max-width: 400px;
-  }
-
-  .md\:max-w-\[380px\] {
-    max-width: 380px;
-  }
-
   .md\:max-w-\[350px\] {
     max-width: 350px;
   }
@@ -5008,8 +5002,33 @@ body:has(#menu-controller:checked) {
     padding-bottom: 5rem;
   }
 
+  .md\:px-14 {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+  }
+
+  .md\:px-28 {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+
+  .md\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
   .md\:pr-10 {
     padding-right: 2.5rem;
+  }
+
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 
@@ -5152,6 +5171,16 @@ body:has(#menu-controller:checked) {
   .lg\:py-32 {
     padding-top: 8rem;
     padding-bottom: 8rem;
+  }
+
+  .lg\:px-14 {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+  }
+
+  .lg\:px-28 {
+    padding-left: 7rem;
+    padding-right: 7rem;
   }
 
   :is([dir="ltr"] .ltr\:lg\:pl-8) {
