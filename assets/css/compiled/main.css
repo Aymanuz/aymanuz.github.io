@@ -1305,6 +1305,14 @@ select {
   top: calc(100vh - 5.5rem);
 }
 
+.top-1 {
+  top: 0.25rem;
+}
+
+.top-12 {
+  top: 3rem;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -1569,6 +1577,18 @@ select {
   margin-top: 0.1rem;
 }
 
+.-mt-3 {
+  margin-top: -0.75rem;
+}
+
+.-mt-7 {
+  margin-top: -1.75rem;
+}
+
+.-mt-10 {
+  margin-top: -2.5rem;
+}
+
 .box-content {
   box-sizing: content-box;
 }
@@ -1667,6 +1687,18 @@ select {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-\[100\%vh\] {
+  height: 100%vh;
+}
+
+.h-\[100vh\] {
+  height: 100vh;
+}
+
+.h-\[70vh\] {
+  height: 70vh;
 }
 
 .max-h-\[5rem\] {
@@ -2434,6 +2466,14 @@ select {
 
 .pt-8 {
   padding-top: 2rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
+.pt-12 {
+  padding-top: 3rem;
 }
 
 .text-center {
@@ -4829,6 +4869,10 @@ body:has(#menu-controller:checked) {
 }
 
 @media (min-width: 640px) {
+  .sm\:top-20 {
+    top: 5rem;
+  }
+
   .sm\:mb-0 {
     margin-bottom: 0px;
   }
@@ -4879,6 +4923,14 @@ body:has(#menu-controller:checked) {
   .sm\:px-24 {
     padding-left: 6rem;
     padding-right: 6rem;
+  }
+
+  .sm\:pt-6 {
+    padding-top: 1.5rem;
+  }
+
+  .sm\:pt-20 {
+    padding-top: 5rem;
   }
 
   .sm\:text-lg {
@@ -5019,6 +5071,14 @@ body:has(#menu-controller:checked) {
 
   .md\:pr-10 {
     padding-right: 2.5rem;
+  }
+
+  .md\:pt-12 {
+    padding-top: 3rem;
+  }
+
+  .md\:pt-20 {
+    padding-top: 5rem;
   }
 
   .md\:text-base {
