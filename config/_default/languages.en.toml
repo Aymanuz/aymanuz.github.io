@@ -22,6 +22,7 @@ dateFormat = "2 Jan 2006"
  links = [
   
    { layers = "https://layers.to/aymanuz" },
+   { readcv = "https://read.cv/aymanuz" },
    { telegram = "https://t.me/aymanuz" },
    { X = "https://X.com/aymanuz" },
  ]

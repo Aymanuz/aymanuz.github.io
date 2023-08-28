@@ -17,7 +17,7 @@
         <div class="flex flex-wrap">
             {{ range $links := . }}
             {{ range $name, $url := $links }}
-            <a class="px-5 hover:text-secondary-50 bg-color-dim2" href="{{ $url }}" target="_blank"
+            <a class="px-5 fill-[#f2f2f299] hover:fill-[#f2f2f2]" href="{{ $url }}" target="_blank"
                 aria-label="{{ $name | title }}" rel="me noopener noreferrer">{{ partial
                 "icon.html" $name }}</a>
             {{ end }}
