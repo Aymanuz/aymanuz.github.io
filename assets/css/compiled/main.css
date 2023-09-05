@@ -2236,18 +2236,6 @@ select {
   background-clip: padding-box;
 }
 
-.fill-secondary-300 {
-  fill: rgba(var(--color-secondary-300), 1);
-}
-
-.fill-primary-300 {
-  fill: rgba(var(--color-primary-300), 1);
-}
-
-.fill-\[bg-color-dim2\] {
-  fill: bg-color-dim2;
-}
-
 .fill-\[\#f2f2f299\] {
   fill: #f2f2f299;
 }

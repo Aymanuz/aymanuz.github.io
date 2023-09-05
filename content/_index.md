@@ -5,7 +5,7 @@ description: "Home Page"
 
 <div class="relative flex flex-col p-10 my-20 gap-2 rounded-3xl bg-color-accent font-normal text-neutral-800 dark:text-neutral border border-[rgba(255,255,255,.1)]">
   <p class="text-sm md:text-base m-0 bg-color-dim leading-8">Hello</p>
-  <p class="text-lg sm:text-xl sm:leading-8 font-normal m-0 leading-8 bg-color-dim1">I’m Ayman. a Product Designer with over 6 years who gained the confidence to be comfortable collaborating with any team at any level, and take an idea from concept to wireframe to prototype to production.</p>
+  <p class="text-lg sm:text-xl sm:leading-8 font-normal m-0 leading-8 bg-color-dim1">I’m Ayman. a Product Designer with over 6 years of experience who gained the confidence to be comfortable collaborating with any team at any level, and take an idea from concept to wireframe to prototype to production.</p>
 
   <div class="absolute top-0 left-0 w-full h-full pointer-events-none">
     <span class="absolute top-[-.9px] left-0 w-[1000%] h-px bg-neutral translate-x-[-25%] bg-line-x"></span>
