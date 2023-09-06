@@ -1,8 +1,8 @@
 {{ define "main" }} {{ partial "partials/home/background2.html" . }}
 
-<header class="my-20 relative">
+<header class="my-20 relative pl-5">
   <h1
-    class="rounded-3xl py-2 px-5 text-base bg-[#ffffff05] w-max border border-[rgba(255,255,255,.1)]"
+    class="rounded-3xl py-2 px-5 !font-normal text-base bg-[#ffffff05] w-max border border-[rgba(255,255,255,.1)]"
   >
     {{ .Title }}
 
@@ -15,13 +15,13 @@
       ></span>
 
       <span
-        class="absolute top-0 left-0 h-[1500%] w-px bg-neutral translate-y-[-50%] bg-line-y"
+        class="absolute top-0 left-5 h-[1500%] w-px bg-neutral translate-y-[-50%] bg-line-y"
       ></span>
     </div>
   </h1>
 </header>
 
-<section class="px-6 md:px-10">
+<section class="px-6">
   {{ partial "recent-articles/main2.html" . }}
 </section>
 
