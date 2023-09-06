@@ -1,7 +1,7 @@
 {{ if gt .Pages 0 }}
 {{ partial "article/list.html" . }}
 {{ else }}
-<section class="max-w-full mt-10 prose dark:prose-invert lg:flex-row px-10 md:px-28 my-28">
+<section class="max-w-full mt-10 prose dark:prose-invert lg:flex-row px-6 md:px-28 my-28">
   <div class="min-w-0 min-h-0">
     {{ .Content | emojify }}
   </div>
