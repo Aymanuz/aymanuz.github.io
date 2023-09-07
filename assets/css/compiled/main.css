@@ -5130,6 +5130,11 @@ body:has(#menu-controller:checked) {
     padding-right: 2rem;
   }
 
+  .md\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
   .md\:pr-10 {
     padding-right: 2.5rem;
   }
@@ -5274,6 +5279,21 @@ body:has(#menu-controller:checked) {
   .lg\:py-32 {
     padding-top: 8rem;
     padding-bottom: 8rem;
+  }
+
+  .lg\:px-28 {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+
+  .lg\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .lg\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
   }
 
   :is([dir="ltr"] .ltr\:lg\:pl-8) {
