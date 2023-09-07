@@ -22,19 +22,19 @@ You can see my ex-lives [here in my CV](https://read.cv/aymanuz).
 
 I’m based in Sweden now, living with my lovely wife and daughter, and sure still exploring this land with its endless probabilities. There are some feelings you can't describe, but you can show. So here are some of those:
 
-<figure class="img-wrapper gap-6 snap-x snap-mandatory overflow-x-auto xl:overflow-hidden w-[90vw] xl:w-[90vw] md:w-[90vw]">
-    <div class="flex justify-start">
+<figure class="img-wrapper overflow-x-auto xl:overflow-hidden w-[90vw] xl:w-[90vw] md:w-[90vw]">
+    <div class="flex justify-start relative overflow-x-auto snap-x snap-mandatory">
         <div class="snap-center shrink-0 ml-6">
-        <img src="with.jpeg" alt="random photos" class="w-full h-[50vh] rounded-lg shadow-xl bg-white"/>
+        <img src="with.jpeg" alt="random photos" class="h-[50vh] rounded-lg shadow-xl bg-white"/>
         </div>
         <div class="snap-center shrink-0 ml-6">
-        <img src="sky.jpeg" alt="random photos" class="w-full h-[50vh] rounded-lg shadow-xl bg-white"/>
+        <img src="sky.jpeg" alt="random photos" class="h-[50vh] rounded-lg shadow-xl bg-white"/>
         </div>
         <div class="snap-center shrink-0 ml-6">
-        <img src="trees.jpeg" alt="random photos" class="w-full h-[50vh] rounded-lg shadow-xl bg-white"/>
+        <img src="trees.jpeg" alt="random photos" class="h-[50vh] rounded-lg shadow-xl bg-white"/>
         </div>
         <div class="snap-center shrink-0 ml-6">
-        <img src="malmo.jpeg" alt="random photos" class="w-full h-[50vh] rounded-lg shadow-xl bg-white"/>
+        <img src="malmo.jpeg" alt="random photos" class="h-[50vh] rounded-lg shadow-xl bg-white"/>
         </div>
     </div>
 </figure>
