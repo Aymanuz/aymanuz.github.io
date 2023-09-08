@@ -1,6 +1,6 @@
 ---
-title: "Home"
-description: "Home Page"
+title: "Ayman Mohey - Product Designer"
+description: "a Product Designer with over 6 years of experience who gained the confidence to be comfortable collaborating with any team at any level, and take an idea from concept to wireframe to prototype to production."
 ---
 
 <div class="relative flex flex-col p-10 my-20 gap-2 rounded-3xl bg-color-accent font-normal text-neutral-800 dark:text-neutral border border-[rgba(255,255,255,.1)]">
