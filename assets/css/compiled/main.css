@@ -1269,6 +1269,10 @@ select {
   left: 0px;
 }
 
+.left-5 {
+  left: 1.25rem;
+}
+
 .left-\[-\.9px\] {
   left: -.9px;
 }
@@ -1307,10 +1311,6 @@ select {
 
 .top-\[calc\(100vh-5\.5rem\)\] {
   top: calc(100vh - 5.5rem);
-}
-
-.left-5 {
-  left: 1.25rem;
 }
 
 .z-10 {
@@ -1605,10 +1605,6 @@ select {
   display: none;
 }
 
-.aspect-\[1\.53\] {
-  aspect-ratio: 1.53;
-}
-
 .\!h-px {
   height: 1px !important;
 }
@@ -1687,14 +1683,6 @@ select {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-\[1872px\] {
-  height: 1872px;
-}
-
-.h-\[50vw\] {
-  height: 50vw;
 }
 
 .max-h-\[5rem\] {
@@ -1781,10 +1769,6 @@ select {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-\[2858px\] {
-  width: 2858px;
 }
 
 .min-w-0 {
@@ -1993,10 +1977,6 @@ select {
 
 .gap-4 {
   gap: 1rem;
-}
-
-.gap-6 {
-  gap: 1.5rem;
 }
 
 .space-x-3 > :not([hidden]) ~ :not([hidden]) {
@@ -2366,6 +2346,11 @@ select {
   padding-right: 0.25rem;
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -2451,21 +2436,6 @@ select {
   padding-bottom: 1px;
 }
 
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
-.px-11 {
-  padding-left: 2.75rem;
-  padding-right: 2.75rem;
-}
-
-.px-9 {
-  padding-left: 2.25rem;
-  padding-right: 2.25rem;
-}
-
 .pb-2 {
   padding-bottom: 0.5rem;
 }
@@ -2482,12 +2452,24 @@ select {
   padding-bottom: 1rem;
 }
 
+.pl-10 {
+  padding-left: 2.5rem;
+}
+
 .pl-2 {
   padding-left: 0.5rem;
 }
 
+.pl-5 {
+  padding-left: 1.25rem;
+}
+
 .pl-\[24px\] {
   padding-left: 24px;
+}
+
+.pr-4 {
+  padding-right: 1rem;
 }
 
 .pr-\[24px\] {
@@ -2516,22 +2498,6 @@ select {
 
 .pt-8 {
   padding-top: 2rem;
-}
-
-.pl-10 {
-  padding-left: 2.5rem;
-}
-
-.pr-4 {
-  padding-right: 1rem;
-}
-
-.pl-5 {
-  padding-left: 1.25rem;
-}
-
-.pb-14 {
-  padding-bottom: 3.5rem;
 }
 
 .text-center {
@@ -2598,6 +2564,10 @@ select {
   line-height: 1rem;
 }
 
+.\!font-normal {
+  font-weight: 400 !important;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -2620,10 +2590,6 @@ select {
 
 .font-semibold {
   font-weight: 600;
-}
-
-.\!font-normal {
-  font-weight: 400 !important;
 }
 
 .uppercase {
@@ -4966,6 +4932,11 @@ body:has(#menu-controller:checked) {
     padding: 1.5rem;
   }
 
+  .sm\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
   .sm\:px-14 {
     padding-left: 3.5rem;
     padding-right: 3.5rem;
@@ -4986,17 +4957,8 @@ body:has(#menu-controller:checked) {
     padding-bottom: 6rem;
   }
 
-  .sm\:px-10 {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-  }
-
   .sm\:pt-20 {
     padding-top: 5rem;
-  }
-
-  .sm\:pr-6 {
-    padding-right: 1.5rem;
   }
 
   .sm\:text-lg {
@@ -5125,16 +5087,6 @@ body:has(#menu-controller:checked) {
     padding-bottom: 5rem;
   }
 
-  .md\:px-8 {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
-  .md\:px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
-
   .md\:pr-10 {
     padding-right: 2.5rem;
   }
@@ -5261,6 +5213,11 @@ body:has(#menu-controller:checked) {
     padding-right: 0px;
   }
 
+  .lg\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
   .lg\:px-32 {
     padding-left: 8rem;
     padding-right: 8rem;
@@ -5279,21 +5236,6 @@ body:has(#menu-controller:checked) {
   .lg\:py-32 {
     padding-top: 8rem;
     padding-bottom: 8rem;
-  }
-
-  .lg\:px-28 {
-    padding-left: 7rem;
-    padding-right: 7rem;
-  }
-
-  .lg\:px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
-
-  .lg\:px-24 {
-    padding-left: 6rem;
-    padding-right: 6rem;
   }
 
   :is([dir="ltr"] .ltr\:lg\:pl-8) {
@@ -5326,9 +5268,5 @@ body:has(#menu-controller:checked) {
 @media (min-width: 1536px) {
   .\32xl\:grid-cols-5 {
     grid-template-columns: repeat(5, minmax(0, 1fr));
-  }
-
-  .\32xl\:overflow-hidden {
-    overflow: hidden;
   }
 }
