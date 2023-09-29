@@ -3,6 +3,7 @@ title: "Request to start a project"
 date: 2022-11-05
 draft: false
 description: "About"
+disableList: true
 ---
 <h1 class="text-center">Request to start a project</h1>
 <p class="text-center my-8">Curious if I'm the right fit for your project? Request a project below, and I'll reach out within two business days with a discovery call link. Excited to meet you and answer your questions!</p>
