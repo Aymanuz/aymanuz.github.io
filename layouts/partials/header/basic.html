@@ -13,13 +13,14 @@
     
  
     <div class="-my-2 -mr-2 flex flex-1 items-center justify-end">
+        {{if not .Params.disableAvailable}}
         <a href="/contact" 
         class="flex items-center mr-14 md:mr-3 gap-2 text-neutral-300 rounded-3xl py-2 px-3 !font-normal text-xs  bg-[#ffffff05] w-max  border-[rgba(255,255,255,.1)]">
   <div class="dot"></div>Available for work<div><svg width="5" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M1 13L7 7L1 1" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>
     </div></a>
-
+        {{ end }}
         <div class="flex items-center space-x-5 md:ml-12">
             {{ partial "translations.html" . }}
 
