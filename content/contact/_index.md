@@ -54,5 +54,5 @@ disableAvailable: true
 <label class="flex self-start">
 <button type="submit" value="Submit" class="px-6 py-2 bg-primary-600 hover:bg-primary-700 ease-in duration-100 border-[#ffffff33] rounded-full font-semibold flex self-start shadow_drop">Submit</button>
 </label>
-  <span class="block text-xs font-normal text-neutral-400">Your data will only be used to contact you.</span>
+  <span class="block text-xs font-normal text-neutral-400">I use a third-party application, Formcarry, to manage and process the information you submit through this form.</span>
 </form>
