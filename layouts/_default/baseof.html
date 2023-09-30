@@ -3,7 +3,7 @@
     rtl
   {{- else -}}
     ltr
-  {{- end }}" class="scroll-smooth"
+  {{- end }}" class="scroll-smooth overflow-x-hidden"
   data-default-appearance="{{ .Site.Params.defaultAppearance | default " light" }}"
   data-auto-appearance="{{ .Site.Params.autoSwitchAppearance | default " true" }}">
 {{- partial "head.html" . -}}
