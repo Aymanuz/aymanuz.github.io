@@ -23,12 +23,12 @@ disableAvailable: true
     <input class="bg-[#ffffff1e] border-[#ffffff33] placeholder-neutral-600 shadow_inner rounded-lg w-full py-2 px-2 mt-1" type="text" name="company" placeholder="Dunder Mifflin, Inc."/>
   </label>
 
-  <label class="flex flex-col gap-1 required">
+  <label class="flex flex-col gap-2 required">
     <span class="block text-base font-normal text-neutral-400">Service*</span>
-    <div class="flex flex-row items-center gap-2"><input name="service[]" required value="product_design" type="checkbox" class="bg-[#ffffff1e] border-[#ffffff33] rounded-md shadow_inner"/><p class="m-0">Product Design</p></div>
-    <div class="flex flex-row items-center gap-2"><input name="service[]" value="landing_page_design" type="checkbox" class="bg-[#ffffff1e] border-[#ffffff33] rounded-md shadow_inner"/><p class="m-0">Landing page Design</p></div>
-    <div class="flex flex-row items-center gap-2"><input name="service[]" value="design_consultation" type="checkbox" class="bg-[#ffffff1e] border-[#ffffff33] rounded-md shadow_inner"/><p class="m-0">Design Consultation</p></div>
-    <div class="flex flex-row items-center gap-2"><input name="service[]" value="other" type="checkbox" class="bg-[#ffffff1e] border-[#ffffff33] rounded-md"/><p class="m-0">Other</p></div>
+    <div class="flex flex-row items-center gap-2"><input name="service[]" value="product_design" id="service1" type="checkbox" class="bg-[#ffffff1e] border-[#ffffff33] rounded-md shadow_inner"/><label for="service1">Product Design</label></div>
+    <div class="flex flex-row items-center gap-2"><input name="service[]" value="landing_page_design" id="service2" type="checkbox" class="bg-[#ffffff1e] border-[#ffffff33] rounded-md shadow_inner"/><label for="service2">Landing page Design</label></div>
+    <div class="flex flex-row items-center gap-2"><input name="service[]" value="design_consultation" id="service3"type="checkbox" class="bg-[#ffffff1e] border-[#ffffff33] rounded-md shadow_inner"/><label for="service3">Design Consultation</label></div>
+    <div class="flex flex-row items-center gap-2"><input name="service[]" value="other" id="service4" type="checkbox" class="bg-[#ffffff1e] border-[#ffffff33] rounded-md"/><label for="service4">Other</label></div>
   </label>
   
   <label class="block">
