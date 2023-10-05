@@ -19,7 +19,7 @@ When I worked with Salla at first, I was only hired as a freelancer to build the
 
 I collaborated with an amazing project manager, CTO and an additional lead designer to explore insights and transform ideas into functionalities that cater to customer behaviors and motivations. I developed frameworks and prototypes to communicate the vision and design principles, which played a crucial role in promoting concepts, achieving consensus, and influencing decision-making. I also crafted and presented designs to secure approval from executives, senior stakeholders, and various other teams within Salla at different stages of the project.
 
-<p class="relative group mt-8 mb-0 font-semibold">THE CHALLANGE</p> 
+<p class="relative group mt-8 mb-0 font-semibold">THE CHALLENGE</p> 
 <h2 class="realtive group mt-0"> Make a deeper connection with <del>customers</del> developers</h2>
 
 [The growing e-commerce market](https://virtocommerce.com/blog/ecommerce-in-middle-east-gcc#:~:text=eCommerce%20in%20Middle%20East%20statistics,savvy%20and%20accept%20paying%20digitally.) is creating a lot of opportunities for developers. They are in high demand to build and maintain e-commerce  websites, applications as well as themes. Developers are also needed to develop new features and functionality for e-commerce platforms.
@@ -72,6 +72,28 @@ As commonly known in such services, the process of publishing an app was a bit l
 <figure class="img-wrapper">
     <img src="create.png" alt="" class="max-w-[1300px] w-[90vw]"/>
 </figure>
+
+## What merchants see
+A lot of work was poured to make the Salla App Store as accessible and humanly useable as possible. To provide merchants with the best solution there is, and seek stakeholders' approval, A/B tests were conducted, and many rounds of iteration had to be taken.
+
+<figure class="img-wrapper">
+    <img src="AppStore.png" alt="" class="max-w-[1300px] w-[90vw]"/>
+</figure>
+
+<figure class="img-wrapper">
+    <img src="AppStore_p.png" alt="" class="max-w-[1300px] w-[90vw]"/>
+</figure>
+
+<figure class="img-wrapper">
+    <img src="AB.png" alt="" class="max-w-[1300px] w-[90vw]"/>
+</figure>
+
+Different scenarios were covered, and a lot of questions had to be asked. For example, not all merchants have the experience to choose what apps are best for their stores, so we provided them with different kits they can pick from.
+
+<figure class="img-wrapper">
+    <img src="kits.png" alt="" class="max-w-[800px] w-[90vw]"/>
+</figure>
+
 
 ## What now?
 
