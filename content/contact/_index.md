@@ -6,7 +6,7 @@ description: "About"
 disableList: true
 disableAvailable: true
 ---
-<h1 class="text-center">Request to start a project</h1>
+<h1 class="text-center pt-16">Request to start a project</h1>
 <p class="text-center my-8">Curious if I'm the right fit for your project? Request a project below, and I'll reach out within two business days with a discovery call link. Excited to meet you and answer your questions!</p>
 
 <form action="https://formcarry.com/s/Hup7tNY1aT" method="POST" accept-charset="UTF-8" class="flex flex-col gap-7 mt-14">

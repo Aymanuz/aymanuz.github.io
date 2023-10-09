@@ -1,9 +1,7 @@
 {{ define "main" }} {{ partial "partials/home/background2.html" . }}
 
+    {{ if not .Params.disableList }}
 <header class="my-20 relative pl-5">
-
-  {{ if not .Params.disableList }}
-
   <h1
     class="rounded-3xl py-2 px-5 !font-normal text-base bg-[#ffffff05] w-max border border-[rgba(255,255,255,.1)]"
   >
