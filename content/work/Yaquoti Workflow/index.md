@@ -45,7 +45,25 @@ Process Automation: This allows for the automation of repetitive tasks and proce
     <img src="Vacation_form.png" alt="Vacation form" class="max-w-[1300px] w-[90vw]"/>
 </figure>
 
+<figure class="img-wrapper">
+    <img src="Conversation.png" alt="Vacation form" class="max-w-[900px] w-[90vw]"/>
+</figure>
 
+<figure class="img-wrapper">
+    <img src="Attachments.png" alt="Vacation form" class="max-w-[900px] w-[90vw]"/>
+</figure>
+
+Each request has its process of actions, conversations and decisions, and it's all stored.
+
+<figure class="img-wrapper">
+    <img src="History.png" alt="Vacation form" class="max-w-[900px] w-[90vw]"/>
+</figure>
+
+Also, every request can have a different set of actions that a user can pre-select, and I had to cover all possible cases. 
+
+<figure class="img-wrapper">
+    <img src="Actions.png" alt="Vacation form" class="max-w-[1100px] w-[90vw]"/>
+</figure>
 ## Building a data-focused ~~dashboard~~, dashboards*
 
 Yaquoti dashboard is comprehensive and user-friendly and offers a range of solutions aimed at enhancing organizational efficiency and productivity. Through its intuitive interface, the dashboard provides real-time insights and management capabilities across various domains. With features like performance monitoring, request tracking, Yaquoti empowers businesses to streamline their processes, identify bottlenecks, and proactively address issues. The dashboard's solutions span IT service management, employee management, and more, making it an indispensable tool for businesses seeking to optimize their operations and ensure a seamless and secure digital environment.
