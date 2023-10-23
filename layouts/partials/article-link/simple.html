@@ -1,13 +1,13 @@
 {{ $constrainItemsWidth := .Page.Site.Params.list.constrainItemsWidth | default false }}
 
-{{ $articleClasses := "flex flex-col-reverse md:flex-row items-center article gap-4" }}
+{{ $articleClasses := "flex flex-col-reverse md:flex-row items-center article gap-4 rounded-xl transition ease-in duration-100 hover:-translate-y-1" }}
 {{ if .Site.Params.list.showCards }}
 {{ $articleClasses = delimit (slice $articleClasses "backdrop-blur") " " }}
 {{ else }}
 {{ $articleClasses = delimit (slice $articleClasses "") " " }}
 {{ end }}
 
-{{ $articleImageClasses := " thumbnail nozoom rounded-xl " }}
+{{ $articleImageClasses := " thumbnail nozoom rounded-xl z-10" }}
 {{ if .Site.Params.list.showCards }}
 {{ $articleImageClasses = delimit (slice $articleImageClasses "") " " }}
 {{ else }}
@@ -18,7 +18,7 @@
 
 {{ $articleInnerClasses := "" }}
 {{ if .Site.Params.list.showCards }}
-{{ $articleInnerClasses = delimit (slice $articleInnerClasses "md:pr-10 md:py-0 md:max-w-[350px] flex flex-col") " " }}
+{{ $articleInnerClasses = delimit (slice $articleInnerClasses "md:pr-10 md:py-0 md:max-w-[350px] flex flex-col z-10") " " }}
 {{ else }}
 {{ $articleInnerClasses = delimit (slice $articleInnerClasses "mt-3 md:mt-0") " " }}
 {{ end }}
