@@ -2,7 +2,7 @@
 title: "Arageek Redesign"
 date: 2023-09-12
 draft: false
-description: "A website that it's know as one of the most popular and influential digital media websites in the Arab world."
+description: "A website recognized as among the foremost and influential digital media platforms in the Arab world."
 ---
 Arageek is one of the first Arabic online magazines to offer engaging and relevant content focused on technology and social media news to Arab youth. It covers a wide range of topics, including Technology news and reviews, Social media trends, Gaming, Science and education, Entrepreneurship and more.
 
