@@ -3,7 +3,7 @@ title: "Ayman Mohey - Product Designer"
 description: "a Product Designer with over 6 years of experience who gained the confidence to be comfortable collaborating with any team at any level, and take an idea from concept to wireframe to prototype to production."
 ---
 
-<div class="relative flex flex-col p-8 sm:p-10 my-20 gap-4 rounded-3xl  font-normal text-neutral-800 dark:text-neutral max-w-md">
+<div class="relative flex flex-col p-8 sm:p-10 my-12 gap-4 rounded-3xl  font-normal text-neutral-800 dark:text-neutral max-w-md">
   <p class="text-sm md:text-base m-0 bg-color-dim leading-8">Hello, I'm Ayman</p>
   <p class="text-[34px] font-semibold m-0 leading-[40px] bg-color-dim1">A Product Designer with over 6 years of experience</p>
   <p class="text-base font-normal m-0 leading-[24px] bg-color-dim">who gained the confidence to be comfortable collaborating with any team at any level, and take an idea from concept to wireframe to prototype to production.</p>

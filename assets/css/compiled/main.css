@@ -1426,6 +1426,11 @@ select {
   margin-bottom: 2rem;
 }
 
+.my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
 .\!mb-0 {
   margin-bottom: 0px !important;
 }
