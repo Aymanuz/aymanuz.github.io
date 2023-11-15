@@ -3,14 +3,15 @@ title: "Ayman Mohey - Product Designer"
 description: "a Product Designer with over 6 years of experience who gained the confidence to be comfortable collaborating with any team at any level, and take an idea from concept to wireframe to prototype to production."
 ---
 
-<div class="relative flex flex-col p-8 sm:p-10 my-20 gap-2 rounded-3xl bg-color-accent font-normal text-neutral-800 dark:text-neutral border border-[rgba(255,255,255,.1)]">
-  <p class="text-sm md:text-base m-0 bg-color-dim leading-8">Hello</p>
-  <p class="text-lg sm:text-xl sm:leading-8 font-normal m-0 leading-8 bg-color-dim1">I’m Ayman. a Product Designer with over 6 years of experience who gained the confidence to be comfortable collaborating with any team at any level, and take an idea from concept to wireframe to prototype to production.</p>
+<div class="relative flex flex-col p-8 sm:p-10 my-20 gap-4 rounded-3xl  font-normal text-neutral-800 dark:text-neutral max-w-md">
+  <p class="text-sm md:text-base m-0 bg-color-dim leading-8">Hello, I'm Ayman</p>
+  <p class="text-[34px] font-semibold m-0 leading-[40px] bg-color-dim1">A Product Designer with over 6 years of experience</p>
+  <p class="text-base font-normal m-0 leading-[24px] bg-color-dim">who gained the confidence to be comfortable collaborating with any team at any level, and take an idea from concept to wireframe to prototype to production.</p>
 
   <div class="absolute top-0 left-0 w-full h-full pointer-events-none">
     <span class="absolute top-[-.9px] left-0 w-[1000%] h-px bg-neutral translate-x-[-25%] bg-line-x"></span>
     <span class="absolute bottom-[-.9px] left-0 w-[1000%] h-px bg-neutral translate-x-[-25%] bg-line-x"></span>
-    <span class="absolute top-0 left-[-.9px] h-[400%] w-px bg-neutral translate-y-[-50%] bg-line-y"></span>
+    <span class="absolute top-0 left-[-.9px] h-[400%] w-px bg-neutral translate-y-[-60%] bg-line-y"></span>
     <svg class="absolute top-0 right-[-.9px] w-px translate-y-[-50%]" xmlns="http://www.w3.org/2000/svg" width="1" height="65" viewBox="0 0 1 65" fill="none">
     <path d="M0 64.5C0 64.7761 0.223858 65 0.5 65C0.776142 65 1 64.7761 1 64.5H0ZM0 0.5V64.5H1V0.5H0Z" fill="url(#paint0_linear_1001_1790)"/>
     <defs>
@@ -20,7 +21,7 @@ description: "a Product Designer with over 6 years of experience who gained the 
     </linearGradient>
     </defs>
     </svg>
-    <span class="absolute top-0 right-[-.9px] h-[400%] w-px bg-neutral translate-y-[-50%] bg-line-y"></span>
+    <span class="absolute top-0 right-[-.9px] h-[400%] w-px bg-neutral translate-y-[-60%] bg-line-y"></span>
     <span class="absolute bottom-[-35px] right-[-19px] translate-y-[-50%]">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
     <g filter="url(#filter0_d_669_1219)">

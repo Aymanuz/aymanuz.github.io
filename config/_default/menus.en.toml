@@ -30,10 +30,10 @@
  pageRef = "about"
  weight = 1000
 
-#[[main]]
-#  name = "Test"
-#  pageRef = "pagTest"
-#  weight = 1000
+[[main]]
+  name = "Project Request"
+  pageRef = "contact"
+  weight = 1001
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before

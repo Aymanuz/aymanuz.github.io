@@ -51,7 +51,7 @@ A pain point that required immediate attention was the complex navigation struct
     <img src="nav.png" alt="" class="max-w-[1500px] w-[90vw]"/>
 </figure>
 
-### Evolation
+### Evolution
 
 As Arageek marked a departure from conventional magazine design, it provided a strategic opening to introduce innovative design patterns, including depth, animation, and enhanced accessibility features. The intent was to gradually implement these design elements across the entirety of the website, paving the way for a more modern and cohesive user experience.
 

@@ -62,7 +62,7 @@
       </div>
       {{ if .Params.showSummary | default (.Site.Params.list.showSummary | default false) }}
       <div class="w-full flex flex-col flex-1 justify-between">
-        <div class="py-1 max-w-fit prose dark:prose-invert bg-color-dim">
+        <div class="py-1 max-w-fit prose dark:prose-invert bg-color-dim leading-[24px]">
           {{ .Description | emojify }}
         </div>
 
