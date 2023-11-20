@@ -92,7 +92,7 @@
     <div class="{{ $articleImageClasses }}" style="background-image:url({{ .RelPermalink }});"></div>
     {{ end }}
     {{ else }}
-    {{ with .Resize "1800x" }}
+    {{ with .Resize "1200x" }}
     <div class="{{ $articleImageClasses }}" style="background-image:url({{ .RelPermalink }});"></div>
     {{ end }}
     {{ end }}
