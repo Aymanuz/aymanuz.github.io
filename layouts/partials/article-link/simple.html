@@ -1,6 +1,6 @@
 {{ $constrainItemsWidth := .Page.Site.Params.list.constrainItemsWidth | default false }}
 
-{{ $articleClasses := "flex flex-col-reverse md:flex-row items-center article gap-4 rounded-xl transition ease-in duration-100 hover:-translate-y-1" }}
+{{ $articleClasses := "flex flex-col-reverse group/article items-center article gap-4 rounded-xl transition hover:transition ease-in duration-200 hover:-translate-y-1" }}
 {{ if .Site.Params.list.showCards }}
 {{ $articleClasses = delimit (slice $articleClasses "backdrop-blur") " " }}
 {{ else }}
@@ -18,7 +18,7 @@
 
 {{ $articleInnerClasses := "" }}
 {{ if .Site.Params.list.showCards }}
-{{ $articleInnerClasses = delimit (slice $articleInnerClasses "md:pr-10 md:py-0 md:max-w-[350px] flex flex-col z-10") " " }}
+{{ $articleInnerClasses = delimit (slice $articleInnerClasses "justify-between md:gap-4 flex flex-col md:flex-row z-10") " " }}
 {{ else }}
 {{ $articleInnerClasses = delimit (slice $articleInnerClasses "mt-3 md:mt-0") " " }}
 {{ end }}
@@ -34,7 +34,7 @@
   <a class="{{ $articleClasses }}" href="{{ .RelPermalink }}">
     
     <div class="{{ $articleInnerClasses }}">
-      <div class="items-center text-3xl font-semibold">
+      <div class="items-center md:w-1/3 w-full text-3xl font-semibold">
         {{ with .Params.externalUrl }}
         <div>
           <div
@@ -48,8 +48,9 @@
         </div>
         {{ else }}
         <div
-          class="font-semibold text-2xl bg-color-dim1 decoration-primary-500"
+          class="font-semibold text-2xl text-neutral-300 decoration-primary-500"
           href="{{ .RelPermalink }}">{{ .Title | emojify }}</div>
+
         {{ end }}
         {{ if and .Draft .Site.Params.article.showDraftLabel }}
         <div class=" ltr:ml-2 rtl:mr-2">
@@ -62,9 +63,15 @@
       </div>
       {{ if .Params.showSummary | default (.Site.Params.list.showSummary | default false) }}
       <div class="w-full flex flex-col flex-1 justify-between">
-        <div class="py-1 max-w-fit prose dark:prose-invert text-neutral-300 leading-[24px]">
+        <div class="py-1 max-w-fit prose dark:prose-invert text-neutral-400 leading-[24px]">
           {{ .Description | emojify }}
         </div>
+
+        <span class="visible sm:invisible sm:group-hover/article:visible transition ease-in duration-500 ">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.21967 14.7803C5.51256 15.0732 5.98744 15.0732 6.28033 14.7803L13.5 7.56066V13.25C13.5 13.6642 13.8358 14 14.25 14C14.6642 14 15 13.6642 15 13.25V5.75C15 5.33579 14.6642 5 14.25 5H6.75C6.33579 5 6 5.33579 6 5.75C6 6.16421 6.33579 6.5 6.75 6.5H12.4393L5.21967 13.7197C4.92678 14.0126 4.92678 14.4874 5.21967 14.7803Z" fill="#94A3B8"/>
+          </svg>                              
+        </span>
 
         <!-- <div class="py-1 max-w-fit prose dark:prose-invert bg-color-dim">
           {{ .PublishDate.Format "2 Jan 2006" }}
@@ -92,7 +99,7 @@
     <div class="{{ $articleImageClasses }}" style="background-image:url({{ .RelPermalink }});"></div>
     {{ end }}
     {{ else }}
-    {{ with .Resize "1200x" }}
+    {{ with .Resize "1800x" }}
     <div class="{{ $articleImageClasses }}" style="background-image:url({{ .RelPermalink }});"></div>
     {{ end }}
     {{ end }}

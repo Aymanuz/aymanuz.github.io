@@ -1,17 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
 :root {
   --color-neutral-800: 0, 16, 29;
   --color-neutral: 242, 242, 242;
+  font-family: Inter, sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+}
+@supports (font-variation-settings: normal) {
+  :root { font-family: InterVariable, sans-serif; }
 }
 
-html {
-  font-family: 'Inter', sans-serif;
-}
+/* html {
+  overflow-x: unset !important;
+} */
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600 !important;
-  letter-spacing: -.5px;
+  letter-spacing: -.4px;
 }
 
 .bg-color-main {
@@ -27,7 +30,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-color-dim1 {
-  color: #f2f2f2;
+  background: linear-gradient(135deg, #E0F2FE 4.53%, rgba(224, 242, 254, 0.33) 84.27%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .bg-color-dim2 {
@@ -43,11 +49,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-line-x {
-  background: rgba(255, 255, 255, 0.1);
-}
-
-.w-\[1000\%\] {
-  width: 1000%;
+  background: linear-gradient(
+    90deg, 
+    rgba(255, 255, 255, 0.00) 0%, 
+    rgba(255, 255, 255, 0.08) 30%, 
+    rgba(255, 255, 255, 0.1) 50%, 
+    rgba(255, 255, 255, 0.08) 70%, 
+    rgba(255, 255, 255, 0.00) 100%);
 }
 
 .thumbnail {
@@ -160,15 +168,57 @@ h1, h2, h3, h4, h5, h6 {
 .article:hover::after {
   content: '';
   position: absolute;
-  left: -8%;
-  width: 110%;
+  left: 50%;
+  bottom: -10%;
+  width: 120%;
   height: 120%;
   background: #ffffff05;
   z-index: 0;
   border-radius: 20px;
+  transform: translateX(-50%);
 }
 
 .btn-style {
   outline: 1px solid rgba(255, 255, 255, 0.03);
   background: linear-gradient(180deg, #0D1C29 0%, #01111E 100%);
+}
+
+/* shower */
+
+.meteor-1 {
+  position: absolute;
+  top: 242px;
+  right: -150px;
+  width: 300px;
+  height: 1px;
+  transform: rotate(-90deg);
+  background-image: linear-gradient(to right, #0769aa, rgba(255, 255, 255, 0));
+  animation: meteor 7.3s linear infinite;
+}
+.meteor-1:before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 5px;
+  border-radius: 50%;
+  margin-top: -2px;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 15px 3px #fff;
+}
+
+@keyframes meteor {
+  0% {
+    opacity: 1;
+    margin-top: -600px;
+  }
+  12% {
+    opacity: 0;
+  }
+  15% {
+    margin-top: 400px;
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
