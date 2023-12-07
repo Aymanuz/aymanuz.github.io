@@ -8,9 +8,9 @@
   :root { font-family: InterVariable, sans-serif; }
 }
 
-html {
+/* html {
   overflow-x: unset !important;
-}
+} */
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600 !important;
