@@ -13,7 +13,7 @@ I came to design from a background in Web Development. I wrote my first line of 
     <img src="profile.jpeg" alt="Ayman's profile picture" class="max-w-[544px] w-[90vw] "/>
 </figure>
 
-In 2017, I enrolled in college to study Information Systems, however after a year, I couldn’t see the added value of college, so I dropped choosing to focus on my career and continue what I have started with the experience that already had built. I believe by the time you read this, I already have over six years of experience in the field, had a couple of positions in respectful companies, worked on tons of different kinds of projects, and still probably work for a lead hardware company called Ubiquiti.
+In 2017, I enrolled in college to study Information Systems, however after a year, I couldn’t see the added value of college, so I dropped choosing to focus on my career and continue what I have started with the experience that already had built. As of now, I have accumulated over six years of experience in the field, held positions in reputable companies, and contributed to numerous diverse projects. These projects ranged from small-scale software developments to large-scale system implementations, providing me with a rich and varied skill set.
 
 You can read more [here in my CV](https://read.cv/aymanuz).
 <figure class="img-wrapper">
