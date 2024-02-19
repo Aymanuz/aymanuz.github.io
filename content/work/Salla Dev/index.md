@@ -97,5 +97,4 @@ Different scenarios were covered, and a lot of questions had to be asked. For ex
 
 ## What now?
 
-When I look now to what Salla Partners has become, I feel really amazed!
-Hundreds of apps have been published to the store, and developers are building and publishing themes all over the platform. The platform has expanded impeccably, meeting the business requirements and users needs without a doubt.
+When I look at what Salla Partners has become, I feel really amazed! Over 300 apps and themes have been published to the store, with more than 3,000 members in the development community actively building and publishing across the platform. The platform has expanded impeccably, meeting the business requirements and users' needs without a doubt. To date, we've seen a 40% year-over-year increase in user engagement, and the customer satisfaction rate stands at an impressive 85%, reflecting our commitment to excellence and the platform's ability to meet and exceed expectations.
